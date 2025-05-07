@@ -124,16 +124,17 @@ Public Class SEI_AbonoFactura
         ls = ls & " AND (ISNULL(T0.U_SEIFiVox,'')='' or ISNULL(T0.U_SEIFiVox,'')='N')"    ' Factura no exportada a Voxel   
         '
         Try
+
             ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
             ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
             Dim cn As ADODB.Connection = New ADODB.Connection()
             Dim rs As ADODB.Recordset = New ADODB.Recordset()
             Dim cnStr As String
             Dim query As String
-            cnStr = "Provider=SQLNCLI11;" & _
-                           "Server=" & IniGet(Application.StartupPath & "\S_SEI_Tokyo_VOXEL.ini", "Parametros", "S") & ";" & _
-                           "Database=" & IniGet(Application.StartupPath & "\S_SEI_Tokyo_VOXEL.ini", "Parametros", "D") & ";" & _
-                           "UID=" & IniGet(Application.StartupPath & "\S_SEI_Tokyo_VOXEL.ini", "Parametros", "U") & ";" & _
+            cnStr = "Provider=SQLNCLI11;" &
+                           "Server=" & IniGet(Application.StartupPath & "\S_SEI_Tokyo_VOXEL.ini", "Parametros", "S") & ";" &
+                           "Database=" & IniGet(Application.StartupPath & "\S_SEI_Tokyo_VOXEL.ini", "Parametros", "D") & ";" &
+                           "UID=" & IniGet(Application.StartupPath & "\S_SEI_Tokyo_VOXEL.ini", "Parametros", "U") & ";" &
                            "PWD=" & IniGet(Application.StartupPath & "\S_SEI_Tokyo_VOXEL.ini", "Parametros", "P") & ";"
             query = ls
             ''''Open Recordset without connection object.
