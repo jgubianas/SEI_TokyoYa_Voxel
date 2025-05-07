@@ -21,6 +21,7 @@ Public Class SEI_SRV_VOXEL
         Me.lblmsg.Text = ""
         ''''  
         dInicio = Now
+
         ''''  
         If Not Me.ConectarSQLNative(go_conn) Then
             MsgBox("No se ha podido conectar a la BBDD")
