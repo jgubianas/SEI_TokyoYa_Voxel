@@ -96,7 +96,7 @@ Public Class SEI_SRV_VOXEL
             Me.txtempresa.Text = IniGet(Application.StartupPath & "\S_SEI_Tokyo_VOXEL.ini", "Parametros", "D")
             '
             ConectarSQLNative = True
-            '
+            
         Catch ex As Exception
             ''''  MsgBox(ex.Message)
         End Try
