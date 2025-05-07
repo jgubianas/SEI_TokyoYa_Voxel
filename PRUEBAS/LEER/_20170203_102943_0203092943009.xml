@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<Transaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <GeneralData Ref="2913009396" Type="Pedido" Date="2017-02-03" Currency="EUR" BeginDate="2017-02-08" EndDate="2017-02-08" DeliveryAddrID="0" TaxIncluded="false" OnlyArchive="false" DownloadPdfUrl="https://bavelfinder.voxelgroup.net/DownloadPDF.aspx?id=16DEFC4137978C8EE03AF2D47ED247BE18CC3C342B7DE6A48CDF39FAC635CD9EFB48C34E7074A6329BBCB7B65D96E41D1">
+    <DigitallyCertified>true</DigitallyCertified>
+  </GeneralData>
+  <Supplier CustomerSupplierID="18010490" CIF="B62419593" Company="GRUPO SERHOS (PL)" Address="line 1" City="line 3" PC="pc" Province="line 3" Country="ESP" Email="rosalinda@gruposerhos.com" SysSupplierID="286">
+    <PhoneNumbers>
+      <PhoneNumber Type="Phone" Number="917-99-13-14" />
+      <PhoneNumber Type="Fax" Number="913-51-95-02" />
+    </PhoneNumbers>
+  </Supplier>
+  <Client CIF="B60359726" Company="Aramark Servicios de Catering SLU" Address="C/ Aribau 200 210 5ª" City="Barcelona" PC="08036" Province="Barcelona" Country="ESP">
+    <PhoneNumbers>
+      <PhoneNumber Type="Phone" Number="932-40-21-41" />
+      <PhoneNumber Type="Fax" Number="932-40-24-50" />
+    </PhoneNumbers>
+  </Client>
+  <Customers>
+    <Customer CustomerID="1801029" CustomerSecondaryID="Z13" SupplierClientID="43009035" SupplierCustomerID="" Customer="1801029Z13 - COLEGIO INMACULADA CONCEPCIÓN" Address="Concepcion, 10" City="Zaragoza" PC="50008" Province="Zaragoza" Country="ESP" />
+  </Customers>
+  <RealSender PrimaryCode="" SecondaryCode="" Company="Grupo Serhos Food Service, S.L." Name="Serhos" Address="C/ Antonio López, 249" City="Madrid" PC="28041" Province="Madrid" Country="ESP" />
+  <Comments>
+    <Comment Msg="Incidencias contactar con Inés Cabas. CONTACTO: 608649058" />
+  </Comments>
+  <ProductList>
+    <Product SupplierSKU="15030001" CustomerSKU="" Item="HARINA FINA DE MAIZ 2,5 KG BOLSA 2500 G SERHOS ( /NIVEL NACIONAL )" Qty="1.000" MU="Unidades" UP="6.93" Total="6.93" />
+    <Product SupplierSKU="15040013" CustomerSKU="" Item="PAN RALLADO 5 KG BOLSA 5 KG T2 ( /NIVEL NACIONAL )" Qty="1.000" MU="Unidades" UP="4.89" Total="4.89" />
+    <Product SupplierSKU="20010001" CustomerSKU="" Item="SAL MARINA TIPO I (FINA) 1 KG BOLSA 1 KG SERHOS ( /GAL /AST /ARAG /CAT /CyL /MAD /LV /A.OCC. /A.OR. )" Qty="10.000" MU="Unidades" UP="0.23" Total="2.30" />
+    <Product SupplierSKU="26030003" CustomerSKU="" Item="MARGARINA CREMA 3/4 1 KG BLOQUE 1 KG FRIBAR ( /GAL /AST /PV /ARAG /CAT /CyL /LV /A.OCC. /A.OR. )" Qty="1.000" MU="Unidades" UP="1.68" Total="1.68" />
+    <Product SupplierSKU="26050001" CustomerSKU="" Item="REFRI / RALLADO HILADO GRATINAR 1 KG BOLSA 1 KG SERHOS ( /GAL /PV /ARAG /CAT /CyL /MAD /LV /A.OCC. /A.OR. )" Qty="2.000" MU="Unidades" UP="3.97" Total="7.94" />
+  </ProductList>
+  <TotalSummary SubTotal="23.74" Tax="0" Total="23.74" />
+</Transaction>

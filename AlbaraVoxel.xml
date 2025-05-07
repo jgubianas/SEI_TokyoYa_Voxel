@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Transaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<GeneralData Ref="" Type="" Date="" Currency=""/>
+	<Supplier  CIF="" Company="" Address="" City="" PC=""
+	Province="" Country="" />
+	<Client  SupplierClientID="" CIF="" Company="" Address="" City="" PC=""
+	Province="" Country="" />
+	<Customers>
+		<Customer   SupplierClientID=""
+		SupplierCustomerID="" Customer="" Address="" City="" PC="" Province=""
+		Country="" />
+	</Customers>
+	<References>
+	<Reference PORef="" DNRef=""/>
+	</References>
+	<ProductList>
+		<Product SupplierSKU=""   Item="" Qty="" MU="" Total=""  UP="">
+			<Taxes>
+				<Tax Type="IVA" Rate="" Amount="" />
+			</Taxes>
+			<Discounts>
+				<Discount Qualifier="Descuento" Type="comercial" Amount="" />
+			</Discounts>
+		</Product>
+	</ProductList>
+	<GlobalDiscounts>
+		<Discount Qualifier="Descuento" Type="comercial" Amount="" Rate="" />
+		<Discount Qualifier="Cargo" Type="fletes" Amount="" />
+	</GlobalDiscounts>
+	<TotalSummary SubTotal="" Tax="" Total="">
+	</TotalSummary>
+</Transaction>

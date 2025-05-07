@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Transaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <GeneralData Ref="21000066" Type="FacturaComercial" Date="2020-12-28" Currency="EUR" />
+  <Supplier CIF="A28692994" Company="TOKYO YA" Address="AV. Presidente Carmona 9" City="" PC="28020" Province="Madrid" Country="ESP" />
+  <Client SupplierClientID="Vox0071060" CIF="E16590622" Company="SHIBUI RAMEN BAR CB" Address="C. Argenteria 18" City="PALMA" PC="07001" Province="Baleares" Country="ESP" />
+  <Customers>
+    <Customer SupplierClientID="CP0071060" SupplierCustomerID="" Customer="SHIBUI RAMEN BAR CB" Address="C. Argenteria 18" City="Palma" PC="07001" Province="Baleares" Country="ESP" />
+  </Customers>
+  <ProductList>
+    <Product SupplierSKU="D-249" Item="Super Dry(330ml.Bot.)(5.2ºalc.10.6ºplato)*24" Qty="120.000000" MU="ud" Total="96.00" UP="0.800000">
+      <Taxes>
+        <Tax Type="IVA" Rate="21.000000" Amount="20.160000" />
+      </Taxes>
+      <References>
+        <Reference PORef="" DNRef="" DNRefDate="" />
+      </References>
+    </Product>
+    <Product SupplierSKU="D-155" Item="Kirin Ichiban Beer 330ml. (5.0ºalc.11.2ºplato)*24" Qty="120.000000" MU="ud" Total="100.80" UP="0.840000">
+      <Taxes>
+        <Tax Type="IVA" Rate="21.000000" Amount="21.170000" />
+      </Taxes>
+      <References>
+        <Reference PORef="" DNRef="" DNRefDate="" />
+      </References>
+    </Product>
+    <Product SupplierSKU="D-155" Item="Kirin Ichiban Beer 330ml. (5.0ºalc.11.2ºplato)*24" Qty="24.000000" MU="ud" Total="0.00" UP="0.000000">
+      <Taxes>
+        <Tax Type="IVA" Rate="21.000000" Amount="0.000000" />
+      </Taxes>
+      <References>
+        <Reference PORef="" DNRef="" DNRefDate="" />
+      </References>
+    </Product>
+  </ProductList>
+  <TaxSummary>
+    <Tax Type="IVA" Rate="21.000000" Base="196.800000" Amount="41.330000" />
+  </TaxSummary>
+  <TotalSummary SubTotal="196.800000" Tax="41.330000" Total="238.130000">
+  </TotalSummary>
+</Transaction>
